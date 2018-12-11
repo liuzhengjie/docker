@@ -1,1 +1,1 @@
-FROM tomcat
+FROM hello-world
