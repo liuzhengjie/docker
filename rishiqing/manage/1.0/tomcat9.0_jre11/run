@@ -1,0 +1,3 @@
+//rishiqing-manage后台管理系统镜像启动 1.0
+//包含功能，基本系统架构
+docker run --name rishiqing-manage --env RISHIQING_CONFIG=/etc/rishiqing-manage/conf -p8810:8080 -v D:/config:/etc/rishiqing-manage/conf -d liuzhengjie/rishiqing-manage:1.0
